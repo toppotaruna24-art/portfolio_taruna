@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Portfolio{% endblock %}
+
+{% block content %}
+<div class="hero-section text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">I'm Taruna Toppo, a passionate developer.</p>
+        <a href="/about" class="btn btn-primary btn-lg">Learn More About Me</a>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>About</h3>
+            <p>Discover my background and skills.</p>
+            <a href="/about" class="btn btn-outline-primary">Read More</a>
+        </div>
+        <div class="col-md-4">
+            <h3>Projects</h3>
+            <p>Explore my latest work and projects.</p>
+            <a href="/projects" class="btn btn-outline-primary">View Projects</a>
+        </div>
+        <div class="col-md-4">
+            <h3>Contact</h3>
+            <p>Get in touch with me.</p>
+            <a href="/contact" class="btn btn-outline-primary">Contact Me</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
